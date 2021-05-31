@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div id="email" class="container">
+
+        <div class="margin"></div>
+
+        <div class="small-container">
+
+            <div class="ad">
+                <span>AD</span>
+            </div>
+
+            <div class="smaller-container">
+
+                <div class="logo">
+                    <h1>Is this user authorized?</h1>
+                    <h3>Check if this e-mail belongs to a user that can log-in!</h3>
+                </div>
+
+                <div class="auth">
+                    <span>This user: </span>
+                    <span id="output-mail"></span>
+                </div>
+
+                <div class="buttons">
+                    <a href="#dice"><button>Play dice!</button></a>
+                    <h3>OR</h3>
+                    <button onclick="location.reload()">Check again</button>
+                </div>
+
+            </div>
+
+            <div class="ad">
+               <span>AD</span>
+            </div>
+
+        </div>
+
+        <div></div>
+
+        <div class="margin"></div>
+
+    </div>
+
+    <div id="dice" class="container">
+
+        <div class="margin"></div>
+
+        <div class="small-container">
+
+            <div class="ad">
+                <span>AD</span>
+            </div>
+
+            <div class="smaller-container">
+
+                <div class="logo">
+                    <h1>Play dice with the computer!</h1>
+                    <h3>Try your luck and have fun!</h3>
+                </div>
+
+                <div class="dice">
+                    <div>
+                        <span>You rolled a: </span>
+                        <span id="output-dice"></span>
+                    </div>
+
+                    <div>
+                        <span>Your opponent rolled a: </span>
+                        <span id="output2-dice"></span>
+                    </div>
+                </div>
+
+                <div id="winner"></div>
+
+                <div class="buttons">
+                    <a href="#email"><button>Check e-mails</button></a>
+                    <h3>OR</h3>
+                    <button onclick="location.reload()">Try again!</button>
+                </div>              <!--"diceGame()""-->
+
+            </div>
+
+            <div class="ad">
+               <span>AD</span>
+            </div>
+
+        </div>
+
+        <div></div>
+
+        <div class="margin"></div>
+
+    </div>
+
+
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
